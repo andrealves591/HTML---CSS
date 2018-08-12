@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>CAFETERIA</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <script src="js/prototype.js" type="text/javascript"></script>
+    <body onLoad="new Ajax.Updater('conteudo', 'home.html')">
+        <main>
+            <header id="cabecalho">
+                <section id="section_superior">
+                    <section class="topo">
+                        <nav class="menu_superior">
+                            <ul>
+                                <li><a href="#" onclick="new Ajax.Updater('conteudo', 'home.html')">Home</a></li>
+                                <li><a href="#" onclick="new Ajax.Updater('conteudo', 'historia.html')">Nosso Café</a></li>
+
+                            </ul>
+                        </nav>
+                    </section>
+
+                    <section class="topo" id="section_logo">
+                        <a></a>
+                    </section>
+
+                    <section class="topo">
+                        <nav class="menu_superior">
+                            <ul>
+                                <li><a href="#" onclick="new Ajax.Updater('conteudo', 'produtos.html')">Cardápio</a></li>
+                                <li><a href="#" onclick="new Ajax.Updater('conteudo', 'contato.html')">Fale Conosco</a></li>
+                            </ul>
+                        </nav>
+                    </section>
+                </section>
+            </header>
+
+            <aside id="conteudo">
+
+            </aside>
+
+            <footer id="rodape">
+                <address>
+                    2018 - Java Bakery Cafe - Todos os direitos reservados.
+                    <br>
+                    Desenvovido por AlvesDMC ©
+                </address>
+            </footer>
+        </main>
+    </body>
+</html>
